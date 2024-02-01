@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Organizador de tareas</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <div class="container">
+                        <div class="left">
+                            <h1>Organizador de tareas</h1>
+                            <h2 id="total">Total: 0</h2>
+                            <h2 id="tareasNoCompletadas"></h2>
+                            <form id="form">
+                                <input placeholder="Ingresar tarea" name="post" id="input"></input>
+                                <br>
+                                <div id="msg"></div>
+                                <button  type="submit">Añadir</button>
+                            </form>
+                            <div >
+                                <h3>Lista de tareas</h3>
+                                <div id="lista">
+                                    <!-- Aca viene la lista desde Js -->
+                                </div>
+                            </div>
+                
+                        </div>
+                        <div id="mensaje"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+           
+        </div>
+        <script src="./main.js"></script>
+</body>
+
+</html>
