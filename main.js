@@ -60,7 +60,6 @@ let completarTarea = function (evento) {
     editButton.classList.add('disabled');
     cambiarBtn.classList.add('disabled');// Deshabilitar el botón al completar la tarea
   } else {
-    contadorTareas = Math.max(0, contadorTareas - 1); // Asegura que el contador no sea negativo
     total.innerHTML = `Total: ${contadorTareas}`;
   }
 }
